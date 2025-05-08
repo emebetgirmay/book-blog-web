@@ -80,7 +80,8 @@ nav a:hover {
 }
 
 .qoutes p{
-    font-size: 2rem;
+    font-size: 1.4rem;
+    font-weight: lighter;
     color: white;
     text-align: justify;
 }
@@ -159,7 +160,7 @@ nav a:hover {
     position: absolute;
     padding: 55px;
     text-align: center;
-    top: 75cm;
+    top: 85cm;
     font-size: 20px;
     border-radius: 13px;
 }
@@ -169,7 +170,7 @@ nav a:hover {
     position: absolute;
 text-align: center;
     left: 10cm;
-    top: 85cm;
+    top: 95cm;
     padding: 75px;
     font-size: 20px;
     color:rgb(80,80,80) ;
@@ -182,7 +183,7 @@ text-align: center;
     padding: 50px;
     text-align: center;
     left: 20cm;
-    top: 98cm;
+    top: 110cm;
     font-size: 20px;
     color:rgb(80,80,80) ;
     border-radius: 13px;
@@ -194,7 +195,7 @@ text-align: center;
     padding: 50px;
     text-align: center;
     left: 30cm;
-    top: 107cm;
+    top: 120cm;
     font-size: 20px;
     color:rgb(80,80,80) ;
     border-radius: 13px;
@@ -206,7 +207,7 @@ text-align: center;
     padding: 60px;
     text-align: center;
     left: 40cm;
-    top: 120cm;
+    top: 135cm;
     font-size: 20px;
     color:rgb(80,80,80) ;
     border-radius: 13px;
@@ -240,15 +241,15 @@ text-align: center;
 }
 .invite{
     background-color: rgb(25, 78, 128);
-
      padding-left: 100px;
      h1{
-        font-size: 50px;
+        font-size: 40px;
         color: white;
+        
         padding-top: 300px;
      }
      p{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: white;
      }
 
@@ -276,3 +277,29 @@ text-align: center;
     background-color:rgb(226, 207, 207);
     transition: 0.7s;
 } 
+@media screen and (max-width: 430px) {
+
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+       text-align: center;
+        /* margin-top: 1rem; */
+    }
+    .intro-flex, .rename-flex {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .intro-image img, .rename-image img {
+        max-width: 100%;
+    }
+    .quote-list {
+        height: 150px;
+    }
+    .quote-scroller {
+        animation-duration: 25s;
+    }
+    .quote-item p {
+        font-size: clamp(0.8rem, 2vw, 1rem);
+        padding: 0.8rem;
+    }
+}
