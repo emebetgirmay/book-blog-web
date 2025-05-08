@@ -13,7 +13,7 @@ body {
 header {
     background-color: #008080;
     color: white;
-    font-family: '';
+    font-family: 'Lora', serif;
     padding: 2rem 4rem;
     display: flex;
     justify-content: space-between;

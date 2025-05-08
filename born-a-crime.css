@@ -1,0 +1,278 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }  
+
+body{
+    margin: 0%;
+    font-family: 'Lora', serif;
+    width: 100%;
+}
+
+header{
+    font-family: 'Lora', serif;
+    position:fixed;
+    width:100vw;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.active{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 50px;
+    text-decoration: none;
+    padding:15px ;
+    position: absolute;
+ 
+   
+}
+
+.active:hover{
+    color: black;
+    background-color:rgb(226, 207, 207);
+    transition: 0.7s;
+}
+
+nav ul {
+    background-color: #008080;
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: clamp(1rem, 3vw, 2rem);
+   
+    
+ 
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ff6f61;
+}
+.topimage{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("photos/BCK6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.topimage h1{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    position: absolute;
+ margin: 30rem 35rem;
+    letter-spacing: 2px;
+}
+
+.qoutes{
+    background-color: #008080;
+    padding: 4rem 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.qoutes p{
+    font-size: 2rem;
+    color: white;
+    text-align: justify;
+}
+
+.qoutes h6{
+    font-size: 20px;
+    color: white;
+}
+
+.summary{
+  background-image: url(photos/2172115262b64fe69448a3a642e6bfc6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+}
+.summary p{
+    background-color: white;
+    position: absolute;
+    padding: 4rem 2rem 5rem 4rem;
+    font-size: 20px;
+    border-radius: 15px;
+    left: 15cm;
+    text-align: center;
+    top: 38cm;
+    margin: 15rem;
+
+}
+
+.summary button{
+    background-color:rgb(69, 123, 155);
+    color: black;
+    border-radius: 28px;
+    padding: 15px;
+    border-color: rgb(69, 123, 155);
+    position: absolute;
+    left: 22cm;
+    top: 52cm;
+    width:10rem;
+    font-size: 15px;
+}
+
+
+.summary button:hover{
+    transform: scale(2s);
+    color :black;
+    background-color: white;
+}
+
+.books{
+    display: flex;
+    justify-content: space-around;
+   background-color: #417aa0;
+
+}
+
+.books img{
+    width: 20vw;
+    height: 60vh;
+    padding: 3%;
+    
+}
+
+.issues{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url("photos/trevorphoto.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 230vh;
+}
+
+
+.issue1{
+    background-color: whitesmoke;
+    color:rgb(80,80,80) ;
+    position: absolute;
+    padding: 55px;
+    text-align: center;
+    top: 85cm;
+    font-size: 20px;
+    border-radius: 13px;
+}
+
+.issue2{
+    background-color: whitesmoke;
+    position: absolute;
+text-align: center;
+    left: 10cm;
+    top: 95cm;
+    padding: 75px;
+    font-size: 20px;
+    color:rgb(80,80,80) ;
+    border-radius: 13px;
+}
+
+.issue3{
+    background-color: whitesmoke;
+    position: absolute;
+    padding: 50px;
+    text-align: center;
+    left: 20cm;
+    top: 109cm;
+    font-size: 20px;
+    color:rgb(80,80,80) ;
+    border-radius: 13px;
+}
+
+.issue4{
+    background-color: whitesmoke;
+    position: absolute;
+    padding: 50px;
+    text-align: center;
+    left: 30cm;
+    top: 119cm;
+    font-size: 20px;
+    color:rgb(80,80,80) ;
+    border-radius: 13px;
+}
+
+.issue5{
+    background-color: whitesmoke;
+    position: absolute;
+    padding: 60px;
+    text-align: center;
+    left: 40cm;
+    top: 133cm;
+    font-size: 20px;
+    color:rgb(80,80,80) ;
+    border-radius: 13px;
+}
+
+.phrases{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(58, 111, 172);
+}
+
+.phrases img{
+    width: 30vw;
+    height: 70vh;
+    padding: 130px 30px 130px 30px;
+    border-radius: 10px;
+}
+
+
+
+.invitation{
+    display: flex;
+    }
+.inviteimg{
+    background-image: url(" photos/NOVEL13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     width: 49vw; 
+     height: 45vw; 
+}
+.invite{
+    background-color: rgb(25, 78, 128);
+
+     padding-left: 100px;
+     h1{
+        font-size: 50px;
+        color: white;
+        padding-top: 300px;
+     }
+     p{
+        font-size: 2rem;
+        color: white;
+     }
+
+
+
+} 
+
+.invite button{
+    padding: 20px;
+    font-size: x-large;
+    color:rgb(25, 78, 128) ;
+    border-radius: 10px;
+   
+   
+    
+}
+.but{
+  padding-left: 300px; 
+  padding-top: 100px; 
+
+}
+
+.invite button:hover{
+    color: aqua;
+    background-color:rgb(226, 207, 207);
+    transition: 0.7s;
+} 
